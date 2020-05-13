@@ -25,7 +25,8 @@ text-align: center;}
 }
 
 #email, #number, #name {width: 300px;
-text-align: center}
+text-align: center
+display: inline-block;}
 @media screen (max-width: 800px) {#email, #name {max-width: 80%}}
 
 #container 
