@@ -24,7 +24,8 @@ text-align: center;}
   
 }
 
-#email, #number, #name {width: 150px;}
+#email, #number, #name {width: 300px;
+text-align: center}
 
 #container 
 {
@@ -46,6 +47,7 @@ textarea {
   resize: horizontal;
   overflow: auto;
   max-width: 80%;
+  width: 400px;
   height: 200px;
   margin-bottom: 40px; 
 }
