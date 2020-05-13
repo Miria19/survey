@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <title>Survey Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Raleway|Pacifico&display=swap" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+  <h1 id="mirias-design">Miria's Designs</h1>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve our design services</p>
+</header>
+
+<div id="container">
+<form id="survey-form"> 
+  <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+  <br>
+  <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+  <br>
+  <label id="number-label">Age <input id="number" type="number" placeholder="Enter your age" min="18" max="80" required></label>
+  <br>
+ 
+ <br>
+ <label id="improvement">What would you like us to improve on most?</label>
+
+<select id="dropdown">
+  <option value="choose">Choose an option
+  <option value="design">Design</option>
+  <option value="processing">Processing</option>
+  <option value="user-experience">User Experience</option>
+  <option value="detail">Detail</option>
+  <option value="customer-service">Customer Service</option>
+</select> 
+  
+  
+    <p id="checkbox">What areas of our services are you most happy with? (Check all that apply)</p>  
+  
+  <label><input type="checkbox" name="services" value="communication">Communication</label>
+
+  <label><input type="checkbox" name="services" value="response">Response</label>
+   
+  <label><input type="checkbox" name="services" value="productivity">Productivity</label>
+    
+  <label><input type="checkbox" name="services" value="delivery">Delivery</label>
+  <br>
+   <p id="subscribe">Would you recommend our services to a friend?</p>
+  <label for="yes">Yes<input id="yes" type="radio" name="yes-no" value="yes"></label>
+   <label for="no">No<input id="no" type="radio" name="yes-no" value="no"></label>
+  <br> 
+  <p id="checkbox1">Do you have any comments or suggestions for us?</p>
+<textarea id="text-area" maxlength="200"  input type="text" placeholder="Enter your comment here...."></textarea>
+<br>  
+ 
+<button id="submit" type="submit">Submit</button>
+   
+</form>
+  
+</div>
+  
+    
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  </html>
