@@ -1,0 +1,95 @@
+body {font-family: raleway;
+  font-size: 22px;
+
+  background: linear-gradient(rgba(45, 52, 54,0.6), rgba(45, 52, 54,0.6)),
+               url(https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+               no-repeat center center fixed;
+
+  background-size: cover;
+}
+
+#mirias-design {font-family: pacifico;
+font-size: 50px;}
+
+header {color: white;
+text-align: center;}
+
+#survey-form
+{ font-family: Abel;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  display: block;
+  place-items: center;
+  
+}
+
+#email, #number, #name {width: 150px;}
+
+#container 
+{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 20px;
+  width: 55%;
+  margin: auto; 
+  display: block;
+}
+@media screen and (max-width:800px)
+{#container {width: 95%;}}
+
+textarea {
+  font-family: Abel;
+  font-size: 22px;
+  border-radius: 5px;
+  display: inline-block;
+  place-items: center;
+  resize: horizontal;
+  overflow: auto;
+  max-width: 80%;
+  height: 200px;
+  margin-bottom: 40px; 
+}
+
+button {border-radius:20px;
+color: white;
+font-size: 20px;
+display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.1);
+ 
+}
+
+button:hover {background-color: dark-grey;}
+
+input {border-radius: 5px;
+font-size: 20px;
+font-family: Abel;
+  display: inline-block;
+  margin: 15px;
+  width: auto;
+}
+#improvement {margin-bottom:30px;
+margin-top:30px;}
+
+#subscribe {
+margin-top:50px;}
+
+#dropdown {border-radius: 5px;
+font-size: 20px;
+font-family: Abel;
+display: inline-block;
+margin-top:15px;
+margin-bottom: 30px;}
+
+#checkbox
+{margin-top: 30px;
+margin-bottom: 30px;}
+#checkbox1
+{margin-top: 40px;
+}
+#number
+{
+width: 135px;
+  display: inline-block;
+}
